@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the article below."
+title: "The writable window: simulator, analysis and released results"
+abstract: >-
+  Generative model of DNA-based exposure recording in a differentiating human
+  cortical progenitor population, the analysis built on it, and the results
+  file from which every number in the accompanying article is drawn.
+type: software
+doi: "10.5281/zenodo.23298100"
+authors:
+  - family-names: Zosen
+    given-names: Denis
+    orcid: "https://orcid.org/0000-0003-4722-9921"
+    affiliation: >-
+      Norwegian Centre for Molecular Biosciences and Medicine (NCMBM),
+      University of Oslo, Norway
+    email: denis.zosen@ncmbm.uio.no
+license: MIT
+repository-code: "https://github.com/deniszosen/writable-window"
+version: "1.0.0"
+date-released: "2026-10-11"
+keywords:
+  - molecular recording
+  - prime editing
+  - brain organoid
+  - human corticogenesis
+  - experimental design
+  - pseudoreplication
+preferred-citation:
+  type: article
+  title: >-
+    The writable window: division-coupled DNA recorders carry a built-in early
+    bias in human cortical organoids
+  authors:
+    - family-names: Zosen
+      given-names: Denis
+      orcid: "https://orcid.org/0000-0003-4722-9921"
+  year: 2026

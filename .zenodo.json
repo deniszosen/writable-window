@@ -1,0 +1,35 @@
+{
+  "title": "The writable window: simulator, analysis and released results",
+  "upload_type": "software",
+  "doi": "10.5281/zenodo.23298100",
+  "version": "1.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/deniszosen/writable-window",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Zosen, Denis",
+      "affiliation": "Norwegian Centre for Molecular Biosciences and Medicine (NCMBM), University of Oslo, Norway",
+      "orcid": "0000-0003-4722-9921"
+    }
+  ],
+  "description": "Generative model of DNA-based exposure recording in a differentiating human cortical progenitor population, the analysis built on it, and the machine-readable results file from which every number in the accompanying article is drawn. The model couples a branching progenitor population to sequential prime-editing symbol insertion into a tandem array, and computes what an exposure-recording experiment in a long human neural culture can resolve. Includes the simulator, the full analysis pipeline, the figure scripts, the verification scripts and the manuscript source. Regenerating the pipeline from an empty directory reproduces 10071 of 10072 shared numeric values to within 1e-9. Code is released under MIT; the manuscript text, supplementary material and figures are released under CC BY 4.0.",
+  "keywords": [
+    "molecular recording",
+    "prime editing",
+    "DNA Typewriter",
+    "brain organoid",
+    "human corticogenesis",
+    "experimental design",
+    "pseudoreplication",
+    "information theory",
+    "stochastic simulation"
+  ],
+  "language": "eng"
+}

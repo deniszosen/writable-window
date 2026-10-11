@@ -1,0 +1,28 @@
+{
+ "both daughters (central)": {
+  "occupancy_mean": 6.120197000000002,
+  "occupancy_sem": 0.010405751319852509,
+  "gradient_mean": 5.283359245525049,
+  "gradient_sem": 0.11259285201107103,
+  "bits": 0.05500577914765053,
+  "bits_sem": 0.0008110128063340271,
+  "n_seeds": 50
+ },
+ "one daughter (edit after replication)": {
+  "occupancy_mean": 3.0554255,
+  "occupancy_sem": 0.008347528520038562,
+  "gradient_mean": 5.373216999876136,
+  "gradient_sem": 0.16437103321176344,
+  "bits": 0.027976350514639137,
+  "bits_sem": 0.0006016243719709036,
+  "n_seeds": 50
+ },
+ "information_cost_percent": {
+  "value": 49.13925236920475,
+  "sem": 1.3261336990043728,
+  "n_seeds": 50
+ },
+ "occupancy_ratio": {
+  "value": 0.49923646248641984
+ }
+}

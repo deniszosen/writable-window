@@ -1,0 +1,34 @@
+name: checks
+
+# The pipeline must run in a documented order and four checks must pass.
+# Nothing enforced that before; this does. It does not regenerate the results
+# file, which takes about two hours, but it verifies every claim against the
+# released one and runs the model's unit tests.
+
+on: [push, pull_request]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: every script the runner references exists
+        run: ./run_everything.sh --check
+      - name: unit tests on the model
+        run: python model/src/test_recorder.py
+      - name: every key a consumer reads exists
+        run: python model/src/check_keys.py
+      - name: every number in the manuscript matches the data
+        run: python code/verify_numbers.py
+      - name: manuscript structure, citations and length
+        run: python code/review.py
+      - name: multiple-comparison block matches a fresh run
+        run: python code/multiplicity.py
+      - name: interaction test matches a fresh run
+        run: python code/interaction_test.py
+      - name: external validation reproduces
+        run: python code/mouse_validation.py
