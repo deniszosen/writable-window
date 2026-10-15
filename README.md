@@ -3,12 +3,32 @@
 Code and data behind *The writable window: division-coupled DNA recorders carry
 a built-in early bias in human cortical organoids*.
 
+[![Preprint DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23375596.svg)](https://doi.org/10.5281/zenodo.23375596) [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23298099.svg)](https://doi.org/10.5281/zenodo.23298099)
+
 Denis Zosen, Norwegian Centre for Molecular Biosciences and Medicine (NCMBM),
 University of Oslo. ORCID [0000-0003-4722-9921](https://orcid.org/0000-0003-4722-9921).
 
 No new experimental data were generated. Every input is a parameter taken from a
 published measurement, a specification the experimenter chooses, or a swept
 assumption; Table S1 of the supplementary material says which, for each one.
+
+## Cite
+
+Preprint (Zenodo, CC BY 4.0): [doi:10.5281/zenodo.23375596](https://doi.org/10.5281/zenodo.23375596)
+
+> Zosen D. The writable window: division-coupled DNA recorders carry a built-in
+> early bias in human cortical organoids. Zenodo. 2026.
+> doi:10.5281/zenodo.23375596
+
+This software (all versions): [doi:10.5281/zenodo.23298099](https://doi.org/10.5281/zenodo.23298099).
+Version 1.0.0: [doi:10.5281/zenodo.23298100](https://doi.org/10.5281/zenodo.23298100).
+GitHub also offers a "Cite this repository" button, built from `CITATION.cff`.
+
+Short summary: a recorder that writes when a cell divides falls silent as neural
+progenitors leave the cell cycle. In a model of a 150-day cortical organoid, half
+of all symbols are written before day 27, so a comparison of exposures at
+different times carries a built-in early gradient. The paper quantifies it and
+shows how to correct for it.
 
 ## Contents
 
